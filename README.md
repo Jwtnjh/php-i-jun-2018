@@ -1,6 +1,18 @@
 # PHP FUNDAMENTALS I -- JUNE 2018
 
-## HOMEWORK FOR MONDAY
+## For Wed 13 Jun 2018
+http://collabedit.com/hxx2v
+
+### HOMEWORK FOR WED
+* Charles
+  * Lab: First Program
+* James
+  * Lab: Additional Crew Members
+
+## For Friday 8 Jun 2018
+http://collabedit.com/xbjkf
+
+### HOMEWORK FOR MONDAY
 * Charles:
   * Lab: The Mixed Array 1
 * James:
@@ -9,9 +21,6 @@
   * Lab: The Multi Array
 * Scott:
   * Lab: The Multi Configuration Array
-
-## For Friday 8 Jun 2018
-http://collabedit.com/xbjkf
 
 ### Class Discussion
 * Pre-defined constants: http://php.net/manual/en/reserved.constants.php
@@ -144,7 +153,7 @@ var_dump($test,$int,$float,$bool,$obj,$array);
 ## For Mon 11 Jun 2018
 http://collabedit.com/5yce7
 
-## HOMEWORK FOR MONDAY
+### HOMEWORK FOR MONDAY
 * Charles:
   * Lab: The Mixed Array 1
 * James:
@@ -154,13 +163,48 @@ http://collabedit.com/5yce7
 * Scott:
   * Lab: The Multi Configuration Array
 
-## CLASS DISCUSSION
+### CLASS DISCUSSION
 * PHP Documentor Project: https://phpdoc.org/
 
-## CLEANUP
-* http://localhost:8888/#/3/4: language in comment is a little ... hmmmmm....
+#### CHARLES
+```
+//An astronaut array assignment
+$astronaut = ['firstName' => 'Mark', 'Watney', 5 => 'Botanist'];
 
+// Access the last name value
+echo $astronaut[0] . '<br>';
+```
+
+#### JAMES
+```
+// An astronaut array assignment
+$astronaut = ['firstName' => 'Mark', 6 => 'Watney', 5 => 'Botanist', 'STS395'];
+// Access the last element value
+echo $astronaut[7] . '';
+```
+
+### KANDACE
+
+```
+/* LAB 3*/
+// Build the crew
+$astronaut1 = ['firstName' => 'Mark', 'lastName' => 'Watney', 'specialty' => 'Botanist'];
+$astronaut2 = ['firstName' => 'Melissa', 'lastName' => 'Lewis', 'specialty' => 'Commander'];
+$astronaut3 = ['firstName' => 'Beth', 'lastName' => 'Johanssen', 'specialty' => 'Computer Specialist'];
+$mission = ['STS395' => [$astronaut1, $astronaut2, $astronaut3]];
+
+// Access the Computer Specialist's first name
+echo $mission['STS395'][2]['firstName'];
+```
+
+#### SCOTT
+Lab 1: 0
+Lab 2: 7
+Lab 3: `echo $mission['STS395'][2]['specialty'];`
+Lab 4: `echo $config['router']['routes']['market']['options']['defaults']['action'];`
 
 ## ERRATA
 * http://localhost:8888/#/2/8: 'hole number' s/be 'whole number'
 * http://localhost:8888/#/2/13: `$person = new $person;` s/be `$person = new Person();`
+* http://localhost:8888/#/3/4: language in comment is a little ... hmmmmm....
+
