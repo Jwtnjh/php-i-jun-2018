@@ -1,5 +1,15 @@
 # PHP FUNDAMENTALS I -- JUNE 2018
 
+## HOMEWORK FOR MONDAY
+* Charles:
+  * Lab: The Mixed Array 1
+* James:
+  * Lab: The Mixed Array 2
+* Kandace:
+  * Lab: The Multi Array
+* Scott:
+  * Lab: The Multi Configuration Array
+
 ## For Friday 8 Jun 2018
 http://collabedit.com/xbjkf
 
@@ -130,6 +140,25 @@ $obj  = (object) $test;
 $array = (array) $test;
 var_dump($test,$int,$float,$bool,$obj,$array);
 ```
+
+## For Mon 11 Jun 2018
+http://collabedit.com/5yce7
+
+## HOMEWORK FOR MONDAY
+* Charles:
+  * Lab: The Mixed Array 1
+* James:
+  * Lab: The Mixed Array 2
+* Kandace:
+  * Lab: The Multi Array
+* Scott:
+  * Lab: The Multi Configuration Array
+
+## CLASS DISCUSSION
+* PHP Documentor Project: https://phpdoc.org/
+
+## CLEANUP
+* http://localhost:8888/#/3/4: language in comment is a little ... hmmmmm....
 
 
 ## ERRATA
