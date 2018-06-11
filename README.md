@@ -3,11 +3,20 @@
 ## For Wed 13 Jun 2018
 http://collabedit.com/hxx2v
 
-### HOMEWORK FOR WED
+* Left Off With: http://localhost:8888/#/4/29
+
+## HOMEWORK FOR WED
 * Charles
   * Lab: First Program
+  * Lab: Conditional If-Else Exclusive OR
 * James
   * Lab: Additional Crew Members
+  * Lab: Conditional If-ElseIf
+* Kandace:
+  * Lab: Conditional If
+  * Lab: Switch Construct
+* Scott:
+  * Lab: Conditional If-Else Equality
 
 ## For Friday 8 Jun 2018
 http://collabedit.com/xbjkf
@@ -207,4 +216,23 @@ Lab 4: `echo $config['router']['routes']['market']['options']['defaults']['actio
 * http://localhost:8888/#/2/8: 'hole number' s/be 'whole number'
 * http://localhost:8888/#/2/13: `$person = new $person;` s/be `$person = new Person();`
 * http://localhost:8888/#/3/4: language in comment is a little ... hmmmmm....
+* http://localhost:8888/#/4/19: as written: won't work.  Need to change like so:
+```
+$foo = 11;
+if( $foo > 10 ) {
+    $foo = 10;
+} else {
+    $foo = null;
+}
+var_dump($foo);
 
+// The ternary does NOT yield the same results
+$foo = 11;
+$foo = ($foo > 10) ? $foo : null;
+var_dump($foo);
+
+// rewritten: works the same now
+$foo = 11;
+$foo = ($foo > 10) ? 10 : null;
+var_dump($foo);
+```
