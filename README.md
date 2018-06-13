@@ -1,5 +1,17 @@
 # PHP FUNDAMENTALS I -- JUNE 2018
 
+## For Fri 15 Jun 2018
+http://collabedit.com/cvbep
+
+* Scott
+  * Lab: Foreach Loop
+* Charles
+  * Lab: For Loop
+* James
+  * Lab: While Loop
+* Kandace
+  * Lab: Do...While Loop
+
 ## For Wed 13 Jun 2018
 http://collabedit.com/hxx2v
 
