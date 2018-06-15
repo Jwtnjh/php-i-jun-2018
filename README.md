@@ -1,5 +1,11 @@
 # PHP FUNDAMENTALS I -- JUNE 2018
 
+## For Mon 18 Jun 2018
+http://collabedit.com/kf3t7
+
+* WEEKEND FREE!!!
+* NO HOMEWORK :-)
+
 ## For Fri 15 Jun 2018
 http://collabedit.com/cvbep
 
@@ -248,3 +254,4 @@ $foo = 11;
 $foo = ($foo > 10) ? 10 : null;
 var_dump($foo);
 ```
+* http://localhost:8888/#/4/48: "mose cases" s/be "most cases"
