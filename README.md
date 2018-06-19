@@ -1,5 +1,23 @@
 # PHP FUNDAMENTALS I -- JUNE 2018
 
+## For Wed 20 Jun 2018
+http://collabedit.com/kf3t7
+* EVERYBODY
+  * Look over the links to these function families:
+    * String functions
+    * Array functions
+    * Date and time functions
+    * Filter functions
+    * Options and info functions
+  * Please present your 2 favorite functions from each family
+  * Look over the OrderApp source code and come back with any questions
+* Charles
+  * Lab: Defining and Calling a Function
+* James
+  * Lab: Recursive Function Exercise
+* Kandace:
+  * Lab: Two Functions
+  
 ## For Mon 18 Jun 2018
 http://collabedit.com/kf3t7
 
