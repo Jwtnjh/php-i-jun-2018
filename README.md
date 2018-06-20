@@ -273,3 +273,22 @@ $foo = ($foo > 10) ? 10 : null;
 var_dump($foo);
 ```
 * http://localhost:8888/#/4/48: "mose cases" s/be "most cases"
+* http://localhost:8888/#/5/14: won't work as written
+```
+<?php
+function formatCurrency(float $value, string $arg='$') {
+    switch ($arg) {
+        case 'euro' :
+        case '€' :
+            return number_format($value, 2, ',', ' ') . '€';
+        case 'pound' :
+        case '£' :
+            return '£' . number_format($value, 2, '.', ',');
+        case 'dollar' :
+        case '$' :
+            return '$' . number_format($value, 2, '.', ',');
+    }
+    return NULL;
+}
+echo formatCurrency(9999, 'baht') ?? 'Unknown';
+```
