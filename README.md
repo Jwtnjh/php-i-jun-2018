@@ -1,5 +1,27 @@
 # PHP FUNDAMENTALS I -- JUNE 2018
 
+## For Fri 22 Jun 2018
+http://collabedit.com/9eek8
+
+* Charles
+  * Lab: Embedded PHP
+  * NOTE: mainly HTML with a bit of PHP
+* James
+  * Lab: PHP Form String
+  * NOTE: PHP generates all the HTML
+* Kandace
+  * Lab: Secure Input Handling
+* Scott
+  * Lab: Escaping Exercise
+ 
+## SESSIONS
+* Use `session_status() == PHP_SESSION_ACTIVE` to confirm a session is running
+  * http://php.net/manual/en/function.session-status.php
+
+## Q& A
+* Q: What is `??`
+* A: Null Coalesce Operator: https://wiki.php.net/rfc/isset_ternary
+
 ## For Thu 21 Jun 2018
 http://collabedit.com/8vpxx
 
