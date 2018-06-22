@@ -494,3 +494,6 @@ function formatCurrency(float $value, string $arg='$') {
 }
 echo formatCurrency(9999, 'baht') ?? 'Unknown';
 ```
+* "framwork"
+* Embedded PHP in HTML: for $attribs array, missing type => text
+* http://localhost:8888/#/7/13: need to switch optional param to the end of fn sig
